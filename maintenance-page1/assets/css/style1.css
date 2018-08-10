@@ -21,7 +21,6 @@ body{
 	font-size: 25px;
 	font-family:Helvetica, sans-serif;
 	color: #333;
-	text-align: center;
 	background-position: center ;
 	height:100vh;
 	position: relative;	
@@ -42,10 +41,11 @@ body{
 	margin:0 auto; 
 	max-width: 800px;
 	content: "";
-	top:12%;
+	top:50%;
 	left:12%;
 	right: 10%;
 	color:#ffffff;
+	transform: translateY(-50%);
 }
 #wrapper .main a{
 	color: #e52727; 
@@ -110,14 +110,7 @@ body{
 	font-size: 20px;
 }
 #wrapper #wrap{
-	position: absolute;
-	width:100%;
-	margin:0 auto; 
 	max-width: 650px;
-	content: "";
-	top:12%;
-	left:12%;
-	right: 10%;
 	color:#ffffff;
 }
 #wrapper .footer input[type=text]{
@@ -132,33 +125,20 @@ body{
 @media screen and (max-width:768px) {
 
 
-	body{
-		margin: 0 auto;
-	}
-
 	#wrapper .header h1 { 
 		font-size: 30px;
 		text-align: left;
 		line-height:30px;
-		color: #e52727; 
 	}
 	#wrapper .header h1:hover{
 		color: #ffffff; 
 		text-decoration: none;
 	}
 	#wrapper { 
-		display: block;
-		text-align: left;
-		font-size: 17px;
-		font-family:Helvetica, sans-serif;
-		color: #333;
-		text-align: center;
-		background-position: center ;
-		height:110vh;
-		position: relative;	
-		background:linear-gradient(rgba(0, 0 ,0 , .8), rgba(0, 0 ,0 , .8)),url(../images/b.jpg);
-		width: 100%; 
-		background-size: cover;
+		
+		font-size: 19px;
+		height:120vh;
+		width: 100%;
 
 	}
 	#wrapper .main p{
@@ -168,15 +148,9 @@ body{
 
 	}
 	#wrapper #wrap{
-		position: absolute;
-		width:90%;
-		margin:0 auto; 
-		max-width:295px;
-		content: "";
-		top:4%;
-		left:5%;
-		right:5%;
-		color:#ffffff;
+		width:100%;
+		max-width:280px;
+		left:8%;
 	}
 	#wrapper .main a{
 		color: #e52727; 
@@ -208,23 +182,12 @@ body{
 	}
 
 	#wrapper .footer input[type=button]{
-		background-color:#e52727;
-		border-radius: 5px;
-		color: white;
 		padding: 5px 25px;
-		text-decoration: none;
-		border:none;
-		margin: 5px 2px;
-		cursor: pointer;
-		font-size:15px;
-		font-family:Helvetica, sans-serif;
-
+		margin: 5px 0px;
+		font-size:17px;
 	}
 	#wrapper .footer input[type=text]{
-		text-align: left;
-		overflow:hidden;
-		background:transparent;
-		width: 80%;
+		width: 70%;
 		box-sizing: border-box;
 		border-radius: 5px;
 		padding:4px;
