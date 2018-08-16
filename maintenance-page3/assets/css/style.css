@@ -3,6 +3,11 @@
 
 body{
     margin: 0 auto;
+    background:linear-gradient(rgba(0, 0 ,0 , .6), rgba(0, 0 ,0 , .6)),url(../images/i5.jpg);
+    height:100%;
+    background-position: center !important;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #mwb-wrapper .mwb-header h1 { 
@@ -25,11 +30,10 @@ body{
     font-family:Helvetica, sans-serif;
     color: #333;
     text-align: center;
-    background-position: center !important;
+    
     /* height:100vh; */
-    background:linear-gradient(rgba(0, 0 ,0 , .6), rgba(0, 0 ,0 , .6)),url(../images/i5.jpg);
     width: 100%; 
-    background-size: cover;
+   
     padding: 80px 0px;
 }
 #mwb-wrapper .mwb-main p{
